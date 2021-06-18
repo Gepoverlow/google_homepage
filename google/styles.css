@@ -4,11 +4,11 @@
   padding: 0;
 }
 
-body {
+/* body {
   background-color: #fff;
 }
 
-.container {
+.containerAll {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -54,4 +54,111 @@ body {
   height: 40px;
   background-color: green;
   text-align: center;
+} */
+
+.containerAll {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.containerTop {
+  display: flex;
+  /* background-color: green; */
+  height: 260px;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.containerLogo {
+  /* background-color: greenyellow; */
+  justify-content: center;
+  display: flex;
+}
+
+.containerSearch {
+  display: flex;
+  /* background-color: hotpink; */
+  height: 200px;
+  justify-content: center;
+}
+
+.containerButtons {
+  display: flex;
+  /* background-color: khaki; */
+  height: auto;
+  padding-top: 20px;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.containerLang {
+  /* background-color: lightgreen; */
+  height: 200px;
+}
+
+.containerFooter {
+  /* background-color: lightslategray; */
+  height: 200px;
+}
+
+.topInfo {
+  height: 50px;
+  padding: 15px;
+  width: 200px;
+  /* background-color: beige; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.logo {
+  display: flex;
+}
+
+.bar {
+  background: #fff;
+  display: flex;
+  border: 1px solid gray;
+  width: 570px;
+  border-radius: 24px;
+  height: 44px;
+  margin-top: 21px;
+  opacity: 0.3;
+}
+
+.lupa {
+  opacity: 0.7;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+input {
+  margin-top: 9px;
+  margin-left: 10px;
+  width: 500px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+button {
+  /* justify-content: flex-end; */
+  height: auto;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
