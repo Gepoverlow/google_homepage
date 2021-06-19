@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* body {
   background-color: #fff;
 }
@@ -79,7 +83,7 @@
 .containerSearch {
   display: flex;
   /* background-color: hotpink; */
-  height: 200px;
+  height: 160px;
   justify-content: center;
 }
 
@@ -97,6 +101,8 @@
 .containerLang {
   /* background-color: lightgreen; */
   height: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .containerFooter {
@@ -161,4 +167,14 @@ button {
   text-align: center;
   cursor: pointer;
   user-select: none;
+}
+
+.languages {
+  /* background-color: brown; */
+  height: 50px;
+  width: 330px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+  text-decoration: none !important;
 }
